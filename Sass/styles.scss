@@ -1,0 +1,32 @@
+@import "componentes";
+
+@mixin pame {
+    width: 300px;
+    border: 01px solid black;
+    border-radius: 2px;
+    background-color: blueviolet;
+    
+}
+$pame: red;
+
+h1{
+    color:$pame;
+    background-color: aquamarine;
+    @include pame
+}
+
+body{
+    background-color: rgba(68, 134, 82, 0.719);
+}
+.listado{
+    color: yellow;
+    ul{
+        background-color: palegreen;
+    }
+    li{
+        list-style: none;
+        &:hover{
+            background-color: purple;
+        }
+    }
+}

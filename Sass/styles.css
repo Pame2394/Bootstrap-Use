@@ -1,0 +1,34 @@
+.btn, .btn2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.btn:hover, .btn2:hover {
+  background-color: rgba(165, 42, 42, 0.712);
+}
+
+h1 {
+  color: red;
+  background-color: aquamarine;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 2px;
+  background-color: blueviolet;
+}
+
+body {
+  background-color: rgba(68, 134, 82, 0.719);
+}
+
+.listado {
+  color: yellow;
+}
+.listado ul {
+  background-color: palegreen;
+}
+.listado li {
+  list-style: none;
+}
+.listado li:hover {
+  background-color: purple;
+}/*# sourceMappingURL=styles.css.map */

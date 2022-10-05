@@ -1,0 +1,12 @@
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    &:hover{
+        background-color: rgba(165, 42, 42, 0.712);
+    }
+}
+
+.btn2{
+    @extend .btn
+}
