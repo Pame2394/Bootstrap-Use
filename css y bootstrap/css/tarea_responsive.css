@@ -1,0 +1,35 @@
+:root{
+  --pame: brown;
+}
+
+.contenedor{
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    background-color: var(--pame);
+  }
+  
+  .lateral{
+    width: 50%;
+    height: 100%;
+  }
+  
+  .principal{
+    width: 50%;
+    height: 100%;
+  }
+  @media only screen and (max-width: 640px) {
+    body {
+      background-color: lightblue;
+    }
+    .lateral{
+        display: flex;
+        gap: 10px;
+        align-items: flex-end;
+        width: 100%;
+    }
+    .principal{
+        display: none;
+    }
+  }
+  

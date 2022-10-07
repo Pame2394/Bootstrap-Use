@@ -1,0 +1,12 @@
+.contenedor{
+    display: flex;
+    background-color: yellow;
+    padding: 0.5rem;
+    gap: 0.5rem;
+    height: 5rem;
+}
+
+.item{
+    background-color: aqua;
+    padding: 0.25rem;
+}

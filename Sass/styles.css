@@ -4,7 +4,7 @@
   padding: 10px;
 }
 .btn:hover, .btn2:hover {
-  background-color: rgba(165, 42, 42, 0.712);
+  background-color: rgba(152, 97, 8, 0.712);
 }
 
 h1 {
@@ -31,4 +31,6 @@ body {
 }
 .listado li:hover {
   background-color: purple;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

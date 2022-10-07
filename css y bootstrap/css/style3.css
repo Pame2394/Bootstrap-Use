@@ -1,0 +1,17 @@
+#btn{
+    background-color: aqua;
+    width: 100px;
+    height: 40px;
+}
+
+#btn::after{
+    content: "Pasa por encima";
+}
+#btn:hover{
+    background-color: greenyellow;
+    color: white;  
+    content: "Hola"; 
+}
+#btn:hover::after{
+    content: "¡Hecho!";
+}
